@@ -81,3 +81,18 @@ output:
 ```
 2f296dc (HEAD -> master) 写到提交修改了
 ```
+
+1. -->delete a '?'
+2. -->commit
+
+```
+git log --oneline
+```
+
+output:
+
+```
+50adb32 (HEAD -> master) delete ?
+d4edec9 写到查看提交历史了
+2f296dc 写到提交修改了
+```
