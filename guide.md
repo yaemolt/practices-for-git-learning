@@ -82,6 +82,8 @@ output:
 2f296dc (HEAD -> master) 写到提交修改了
 ```
 
+?
+
 1. -->delete a '?'
 2. -->commit
 
@@ -96,3 +98,12 @@ output:
 d4edec9 写到查看提交历史了
 2f296dc 写到提交修改了
 ```
+
+### back to some point(commit)
+```
+git checkout <version ID> -- <filename>
+```
+
+back to some point and delete points after it
+```
+git reset --hard <version ID>
