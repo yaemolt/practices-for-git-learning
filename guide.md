@@ -107,3 +107,21 @@ git checkout <version ID> -- <filename>
 back to some point and delete points after it
 ```
 git reset --hard <version ID>
+```
+
+### add something you don't need to track using git
+
+add a <.gitignore>
+in this file:
+```
+<filename.type>
+```
+
+## github
+
+### code from github
+```
+git remote add origin https://github.com/yaemolt/practices-for-git-learning.git
+git branch -M main
+git push -u origin main
+```
