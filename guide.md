@@ -125,3 +125,15 @@ git remote add origin https://github.com/yaemolt/practices-for-git-learning.git
 git branch -M main
 git push -u origin main
 ```
+
+### git pull
+
+
+```
+git pull
+```
+
+### new branch
+```
+git checkout -b branchname
+```
